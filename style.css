@@ -30,17 +30,13 @@ a:hover{
     margin-right: 0;
     
 }
-.about{
-    width: 1512px;
-    height: 695px;
+.about {
     display: flex;
     
 }
-.picture{
-    background-image: url(./img/apartment.png);
-    background-repeat: no-repeat;
+.about-img{
     width: 50%;
-    height: 694.38px;
+    object-fit: cover;
 }
 .info{
     width: 50%;
@@ -50,37 +46,37 @@ a:hover{
     align-items: center;
 }
 .text{
-text-align: center;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 42px;
-color: #000000;
-margin-bottom: 23px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 23px;
 
 }
 .lorem{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: justify;
-color: #000000;
-width: 624px;
-height: 182px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+    width: 624px;
+    height: 182px;
 }
 .our_projects{
-   display: flex;
-   margin-left: 64px;
-   padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
 }
 .our_project_block{
     background-image: url(./img/project.png);
-    width: 436.08px;
-    height: 376.65px;
-    margin-left: 37px;
+    width: 27%;
+    aspect-ratio: 1/1;
+    background-size: cover;
     position: relative;
     
 }
@@ -89,9 +85,7 @@ height: 182px;
 }
 .wrapper{
     background-color: #DCFFEB;
-    width: 1512px;
-    height: 730px;
-    padding-top: 124px;
+    padding: 124px 0;
 }
 .our_text{
     margin-left: 64px;
@@ -111,18 +105,18 @@ height: 182px;
     opacity: 1;
     }
 .our_head{
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-color: #FFFFFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
 }
 .our_info{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
