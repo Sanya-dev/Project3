@@ -27,12 +27,10 @@ a:hover{
     margin-right: 20px;
 }
 .social-icon:last-child{
-    margin-right: 0;
-    
+    margin-right: 0; 
 }
 .about {
     display: flex;
-    
 }
 .about-img{
     width: 50%;
@@ -54,7 +52,6 @@ a:hover{
     line-height: 42px;
     color: #000000;
     margin-bottom: 23px;
-
 }
 .lorem{
     font-family: 'Inter';
@@ -78,7 +75,6 @@ a:hover{
     aspect-ratio: 1/1;
     background-size: cover;
     position: relative;
-    
 }
 .our_project_block:first-child{
     margin-left: 0;
